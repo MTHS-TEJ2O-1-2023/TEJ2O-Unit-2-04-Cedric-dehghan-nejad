@@ -5,16 +5,6 @@ This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
-import random
 
-# our variable for temperature
-temperature = 0
 
-display.clear()
-display.show(Image.HAPPY)
-
-while True:
-
-    if button_a.is_pressed():
-        temperature = input.temperature()
-        display.show(str(temperature))
+display.scroll("Hello, World!")
