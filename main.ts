@@ -8,12 +8,12 @@
 */
 
 //  our variable for a random number
-  let randomNumber: number
+let randomNumber: number
 
-  basic.clearScreen()
-  basic.showIcon(IconNames.Happy)
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
 
-  input.onButtonPressed(Button.A, function () { 
-    randomNumber = randint(1, 6)
-    basic.showNumber(randomNumber)   
-  }) 
+input.onButtonPressed(Button.A, function (){
+  randomNumber = randint(1, 6)
+  basic.showNumber(randomNumber)
+})
