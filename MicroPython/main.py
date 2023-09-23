@@ -6,6 +6,7 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
+temperature = 0 
 
 display.clear()
 display.show(Image.HAPPY)
