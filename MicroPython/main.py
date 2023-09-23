@@ -11,7 +11,6 @@ display.clear()
 display.show(Image.HAPPY)
 
 while True:
-
     if button_a.is_pressed():
         input.temperature = input.temperature()
         display.show(str(input.temperature))
