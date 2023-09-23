@@ -5,10 +5,7 @@ This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
-import random
 
-# our variable for temperature
-temperature = 0
 
 display.clear()
 display.show(Image.HAPPY)
